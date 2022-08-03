@@ -3,7 +3,9 @@ import CardProduto from './CardProduto'
 import Header from '../Header/Header'
 import Filtro from '../Filtro/Filtro'
 import { useNavigate } from 'react-router-dom'
-import Filtro from '../Filtro/Filtro'
+import * as P from './styled'
+
+
 
 const Produto = () => {
     const navigate = useNavigate()
@@ -11,13 +13,17 @@ const Produto = () => {
 const Carrinho = () => {
         navigate("/carrinho")      }
   return (
-    <div>
+    <P.Body>
         <Header/>
-        <h2>Produto</h2>
-        <button onClick={Carrinho}>Carrinho</button>
-        <Filtro/>
+        <P.ContBody>
+        <P.ContCard>
         <CardProduto/>
-    </div>
+        </P.ContCard>
+        <P.ContFiltro>
+        <Filtro/>
+        </P.ContFiltro>
+        </P.ContBody>
+    </P.Body>
   )
 }
 
