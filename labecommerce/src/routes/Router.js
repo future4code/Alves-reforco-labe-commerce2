@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Carrinho from '../components/Carrinho/Carrinho'
-import Produto from '../components/Produto/Produto'
+import Carrinho from '../pages/Carrinho/Carrinho'
+import Produto from '../pages/Produto/Produto'
 
 const Router = () => {
   return (
