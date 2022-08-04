@@ -3,6 +3,7 @@ import { CardContainer, FotoProduto, Infos, Botao  } from './styles'
 
 
 const CardProduto = (props) => {
+  
   return (
     <CardContainer>
         <FotoProduto src={props.fotoProduto} alt={props.nomeProduto}/>
