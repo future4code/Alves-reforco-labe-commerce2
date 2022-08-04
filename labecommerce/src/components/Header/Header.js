@@ -1,30 +1,23 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import * as C from './styled'
 import logo from './imagens/logo.png'
 import stelara from './imagens/stelara.gif'
 import carrinho from './imagens/carrinho.png'
-
+import { goToCarrinho, goToProdutos } from '../../routes/Coordinator'
 
 const Header = () => {
-  const navigate = useNavigate()
-  const Produto = () => {
-      navigate("/")
-    }
+  
 
-    const Carrinho = () => {
-      navigate("/carrinho")
-    }
   return (
     <div>
       <C.Menu>
         <C.Container>
           
         <C.Nav>
-                <C.ImagemLogo src={logo} onClick={Produto}/>
+                <C.ImagemLogo src={logo} onClick={goToProdutos}/>
             </C.Nav>
         <C.Nav>
-                <C.ImagemTexto src={stelara} onClick={Produto}/>
+                <C.ImagemTexto src={stelara} onClick={goToCarrinho}/>
             </C.Nav>
            
             {/* <C.Nav onClick={Carrinho}>
@@ -37,6 +30,9 @@ const Header = () => {
             
         </C.Container>
     </C.Menu>
+
+      <button onClick={goToCarrinho}>Carrinho</button>
+
     </div>
   )
 }
