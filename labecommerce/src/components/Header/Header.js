@@ -17,7 +17,7 @@ const Header = () => {
                 <C.ImagemLogo src={logo} onClick={goToProdutos}/>
             </C.Nav>
         <C.Nav>
-                <C.ImagemTexto src={stelara} onClick={goToCarrinho}/>
+                <C.ImagemTexto src={stelara} onClick={}/>
             </C.Nav>
            
             {/* <C.Nav onClick={Carrinho}>
@@ -25,14 +25,11 @@ const Header = () => {
             </C.TextoBotao>
             </C.Nav> */}
             <C.Nav>
-                <C.ImagemCarrinho src={carrinho} onClick={Carrinho}/>
+                <C.ImagemCarrinho src={carrinho} onClick={goToCarrinho}/>
             </C.Nav>
             
         </C.Container>
     </C.Menu>
-
-      <button onClick={goToCarrinho}>Carrinho</button>
-
     </div>
   )
 }
