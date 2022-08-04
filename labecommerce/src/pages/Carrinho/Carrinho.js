@@ -1,17 +1,12 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { goToProdutos } from '../../routes/Coordinator'
 
 const Carrinho = () => {
-    const navigate = useNavigate()
-
-
-const Produto = () => {
-        navigate("/")      }
-
+    
   return (
     <div>
         <h2>Carrinho</h2>
-        <button onClick={Produto}>Produto</button>    
+        <button onClick={goToProdutos}>Produto</button>    
     </div>
   )
 }

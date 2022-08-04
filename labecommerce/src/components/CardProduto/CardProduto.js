@@ -10,7 +10,7 @@ const CardProduto = (props) => {
         <Infos>
           <h3> {props.nomeProduto} </h3>
           <p> {props.descricao} </p>
-          <h5> {props.valor} </h5>
+          <h5> {props.preco} </h5>
         </Infos>
         <Botao
           onclick={() => {}}
