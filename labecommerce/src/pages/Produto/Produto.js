@@ -9,58 +9,81 @@ import Footer from '../../components/Footer/Footer'
 const Produto = () => {
     const [produtos, setProdutos] = useState([{
       id: 1,
-      name: ,
-      descricao: ,
-      value: ,
-      fotoProduto: 
+      fotoProduto: "",
+      name: "Camiseta1",
+      descricao: "Descrição",
+      preco: 50,
+       
     },
     {
       id: 2,
-      name: 
-      descricao: ,
-      value: ,
-      fotoProduto: 
+      fotoProduto: "",
+      name: "Camiseta2",
+      descricao: "Descrição",
+      preco: 70,
+       
     },
     {
       id: 3,
-      name: ,
-      descricao: ,
-      value: ,
-      fotoProduto: 
+      fotoProduto: "",
+      name: "Camiseta3",
+      descricao: "Descrição",
+      preco: 65,
+       
     },
     {
       id: 4,
-      name: 5,
-      descricao: ,
-      value: ,
-      fotoProduto: 
+      fotoProduto: "",
+      name: "Camiseta4",
+      descricao: "Descrição",
+      preco: 40,
+       
+    },
+    {
+      id: 5,
+      fotoProduto: "",
+      name: "Camiseta5",
+      descricao: "Descrição",
+      preco: 120,
+      
     },
     {
       id: 6,
-      name: ,
-      descricao: descricao,
-      value: valor,
-      fotoProduto: fotoProduto
-    }], 
-    inputNome: "",
-    valorMinimo: "",
-    valorMaximo: "",
-    itensNoCarrinho: [],
-    )
-    
+      fotoProduto: "",
+      name: "Camiseta6",
+      descricao: "Descrição",
+      preco: 100,
+      
+    }])
+    const [inputNomeProduto, setInputNomeProduto] = useState("")
+    const [inpuValorMin, setInputValorMin] = useState("")
+    const [inputValorMax, setInputValorMax] = useState("")
+    const [itensNoCarrinho, setItensCarrinho] = useState([])
   
-     
+    // Inputs controlados, do filtro
+    onChangeInputNomeProduto = (e) => {
+      setInputNomeProduto(e.target.value)
+    }
+
+    onChangeInputValorMin = (e) => {
+      setInputValorMin(e.target.value)
+    }
     
+    onChangeInputValorMax = (e) => {
+      setInputValorMax(e.target.value)
+    }
+
+
     
   return (
     
-    <div>
+    <AppContainer>
         <Header/>
         <h1>Produto</h1>
         <Filtro/>
         <CardProduto/>
         <Footer />
-    </div>
+    </AppContainer>
   )
 }
 
