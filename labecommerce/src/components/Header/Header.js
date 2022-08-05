@@ -1,26 +1,27 @@
 import React from 'react'
-import { goToCarrinho, goToProdutos } from '../../routes/Coordinator'
-import Logo from '../assets/img/logo.png'
-import Carrinho from '../assets/img/carrinho.png'
-import Stelara from '../assets/stelara.gif'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+import carrinho from '../../assets/img/carrinho.png'
+import logo from '../../assets/img/logo.png'
+import stelara from '../../assets/img/stelara.gif'
+import { BotaoIcone, Menu, Container, Logo, ImgTexto, ImgCarrinho } from './styled'
 
-
-const Header = () => {
-  return (
-    <Menu>
-      <Container>
-        <Nav>
-          <Logo src={Logo} onClick={goToProdutos} />
-        </Nav>  
-        <Nav>
-          <ImgTexto src={Stelara} />
-        </Nav>  
-        <Nav>
-          <ImgCarrinho src={Carrinho} alt={goToCarrinho} />
-        </Nav>
-      </Container>
-    </Menu>
-  )
+export default  function Header() {
+    
+    return (
+      <Router>
+        <Container>
+             <Menu>
+                <BotaoIcone>
+                    <Link to='/'><Logo src={logo} /></Link>
+                </BotaoIcone>
+                <BotaoIcone>
+                    <ImgTexto src={stelara} />
+                </BotaoIcone>
+                <BotaoIcone>
+                    <Link to='/carrinho'><ImgCarrinho src={carrinho} /></Link>
+                </BotaoIcone> 
+             </Menu>
+        </Container>
+      </Router>
+    )
 }
-
-export default Header
