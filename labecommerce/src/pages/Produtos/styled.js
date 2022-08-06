@@ -14,3 +14,18 @@ export const ConjuntoDeCartoes = styled.div`
   margin-top: 10px;
   margin: 10px 0;
 `
+export const ContainerPage = styled.div`
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+    width: 50%;
+    height: 70vh;
+    top: 50%;
+
+
+`
+export const Div = styled.div`
+    display: flex;
+    position: absolute;
+   
+`
