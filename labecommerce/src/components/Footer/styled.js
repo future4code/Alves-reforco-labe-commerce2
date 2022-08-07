@@ -4,7 +4,6 @@ export const Box = styled.div`
     padding: 80px 60px;
     background: rgb(33,9,59);
     background: linear-gradient(90deg, rgba(33,9,59,1) 0%, rgba(130,60,241,0.8575805322128851) 99%);
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 50%;
@@ -22,6 +21,7 @@ export const Container = styled.div`
 	max-width: 1000px;
 	margin: 0 auto;
 	margin-top: 1em;
+    bottom: 0;
 `
 
 export const Column = styled.div`

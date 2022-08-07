@@ -7,22 +7,23 @@ export const Cabecalho = styled.div`
 `
 
 export const ConjuntoDeCartoes = styled.div`
-  position: fixed;
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   margin-top: 10px;
   margin: 10px 0;
 `
-export const ContainerPage = styled.div`
+export const ContainerProdutos= styled.div`
     position: relative;
     margin: auto;
     border: 1px solid black;
-    width: 50%;
-    height: 70vh;
-    top: 50%;
-
-
+    width: 70vw;
+    min-height: 105vh;
+    max-height: 150vh;
+    padding: 2rem;
+    
+    
 `
 export const Div = styled.div`
     display: flex;

@@ -1,8 +1,8 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import ProdutosPage from '../pages/Produtos/ProdutosPage';
-import CarrinhoPage from '../pages/Carrinho/CarrinhoPage';
-import HomePage from '../pages/Home/HomePage';
+import ProdutosPage from '../pages/ProdutosPage/ProdutosPage';
+import CarrinhoPage from '../pages/CarrinhoPage/CarrinhoPage';
+import HomePage from '../pages/HomePage/HomePage';
 
 export default function BrowserRouter() {
     return (
