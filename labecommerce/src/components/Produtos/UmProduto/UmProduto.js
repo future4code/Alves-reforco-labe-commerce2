@@ -1,16 +1,20 @@
 import React from 'react'
-import { CardContainer, FotoProduto, Infos, Botao  } from './styled'
+import { CardContainer, FotoProduto, Infos } from './styled'
+  
 
 const UmProduto = (props) => {
     return(
     <CardContainer>
-        <FotoProduto src={props.produto.foto} alt={props.produto.nome}/>
+        <FotoProduto src={props.foto} alt={props.nome}/>
         <Infos>
-          <h3> {props.produto.nome} </h3>
-          <p> {props.produto.descricao} </p>
-          <h5> R$:{props.produto.preco},00 </h5>
+          <h1> {props.nome} </h1>
+          <p> {props.descricao} </p>
+          <h2>{props.preco}</h2>
         </Infos>
-        <Botao onclick={props.ca}>Adicionar ao Carrinho</Botao>
+        <button 
+          onClick={props.adicionarItem}
+          nome={"Carrinho"}
+          >Adicionar ao Carrinho</button>
     </CardContainer>
     )
 }
