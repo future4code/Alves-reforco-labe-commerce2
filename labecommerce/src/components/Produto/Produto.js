@@ -1,19 +1,14 @@
 import React , { useState }from 'react'
-import Header from './components/Header/Header'
-import { ConjuntoDeCartoes, ContainerOrdenacao, ContainerProdutos, Filtros, H4, Label, MenuFiltros } from './styled'
-import UmProduto from './components/UmProduto/UmProduto'
-import Footer from './components/Footer/Footer'
+
+
 // Array de produtos
-import { produtos } from './constants/produtos'
+import { produtos } from '../../constants/produtos'
 
 
 
-function App() {
-  const [ordenacao, setOrdenacao] = useState(1)
-  const [itemCarrinho, setItemCarrinho] = useState([])
-  const [inputValorMin, setInputValorMin] = useState(40)
-  const [inputValorMax, setInputValorMax] = useState(120)
-  const [inputNomeProduto, setInputNomeProduto] = useState("")
+const Produto = () => {
+    const [ordenacao, setOrdenacao] = useState(1)
+    const [itemCarrinho, setItemCarrinho] = useState([])
 
 
     // itemId = ID do item sendo clicado 
@@ -39,50 +34,10 @@ function App() {
       }
     };
 
-
-  return (
-    <div className="App">
-      <Header />
-      <Filtros>
-            <MenuFiltros>
-                <Label>
-                  <H4>Valor Minimo (R$): </H4>
-                  <input
-                    type={'number'}
-                    placeholder='R$ 40'
-                    id={"minimo"}
-                    name={"Mínimo"}
-                    min={0}
-                    max={200}
-                    valorMin={inputValorMin}  
-                    onChangeMin={(e) => setInputValorMin(e.terget.value)}
-                  />
-                </Label>
-                <Label>
-                  <H4>Valor Máximo (R$):</H4>
-                  <input 
-                    type={'number'}
-                    placeholder={'R$ 120'}
-                    min={0}
-                    max={200}
-                    id={"maximo"}
-                    name={"Máximo"}
-                    valorMax={inputValorMax}
-                    onChangeMax={(e) => setInputValorMax(e.target.value)}
-                  />
-                </Label>
-                <Label>
-                <H4>Busca por nome: </H4>
-                  <input 
-                    type={'text'}
-                    placeholder={'Camisetas'}
-                    valorNome={inputNomeProduto}
-                    onChangeNome={(e) => setInputNomeProduto(e.target.value)}
-                  />
-                </Label>
-            </MenuFiltros>
-          </Filtros>
-      <ContainerOrdenacao>
+  
+    return (
+        <div>
+          <ContainerOrdenacao>
             <p>Quantidade de produtos: {produtos.length}  </p>   
             <h2> Todos os Produtos</h2>
             <label>
@@ -136,9 +91,9 @@ function App() {
             };
            </ConjuntoDeCartoes>
           </ContainerProdutos>
-          <Footer />
-    </div>
-  );
+            
+        </div>
+    )
 }
 
-export default App;
+export default Produto;

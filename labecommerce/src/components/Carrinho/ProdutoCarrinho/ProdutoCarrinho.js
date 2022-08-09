@@ -2,7 +2,7 @@ import React from 'react'
 import { ConjuntoDeProdutosCarrinho } from './styled'
   
 
-const ProdutosCarrinho = (props) => {
+const ProdutoCarrinho = (props) => {
     return(
     <ConjuntoDeProdutosCarrinho>
         <p>{props.quantidade}</p>
@@ -12,4 +12,4 @@ const ProdutosCarrinho = (props) => {
     </ConjuntoDeProdutosCarrinho>
     )
 }
-export default ProdutosCarrinho;
+export default ProdutoCarrinho;

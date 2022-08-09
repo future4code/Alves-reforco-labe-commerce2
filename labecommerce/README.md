@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+## LabE-Commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img src="https://user-images.githubusercontent.com/104601856/182938210-ad35c7ab-f8a1-4305-93fc-909218c2a6a9.gif" width=170>
 
-In the project directory, you can run:
 
-### `npm start`
+<h1 align="center"> Projeto LabE-Commerce - Reforço - Labenu </h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+##  Índice 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Descrição](#descrição)
+* [Principais Ferramentas Utilizadas](#principais-ferramentas-utilizadas)
+* [Funcionalidades](#funcionalidades)
+* [Em construção](#em-construção)
+* [Link do Projeto](#link-do-projeto)
+* [Imagens do Projeto](#imagens-do-projeto)
+* [Desenvolvedoras](#desenvolvedoras)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+💬
+## Descrição 
 
-### `npm run eject`
+Proposta do bootcamp Labenu para criação de um projeto de E-commerce.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⚙️
+## Principais Ferramentas Utilizadas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+▪ React Hooks
+▪ React Router
+▪ HTML
+▪ Styled-components
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✔️
+## Funcionalidades
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ao ingressar no site, o usuário se depara com os produtos da loja Stelara dispostos em cards interativos que podem ser clicados para adicionar o item ao carrinho.  
 
-### Code Splitting
+Ao acessar o carrinho, é possível observar os produtos selecionados e, finalizar a compra ou deletá-los da lista. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+No rodapé da página tem informações disponibilizamos os contatos dos desenvolvedores e da Labenu.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+🚧
+## Em construção
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Aguardando informações finais.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+🔗
+## Link do Projeto 
+[Nosso LabE-Commerce](http://truthful-liquid.surge.sh/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🖼️
+## Imagens do Projeto
+
+
+
+👩‍💻
+## Desenvolvedoras
+
+| [<img src="https://avatars.githubusercontent.com/laisrm" width=115><br><sub>Laís Rodrigues Martins</sub>](https://github.com/laisrm) |  [<img src="https://avatars.githubusercontent.com/weslianevieira" width=115><br><sub>Wesliane Vieira</sub>](https://github.com/weslianevieira) |  [<img src="https://avatars.githubusercontent.com/Artur-soares" width=115><br><sub>Artur Soares</sub>](https://github.com/Artur-soares) |
+| :---: | :---: | :---: |
+
+
+
+
+* [Topo da página](#labe-commerce)
+
+
+
+
+

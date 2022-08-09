@@ -26,9 +26,8 @@ export const ContainerProdutos= styled.div`
     min-height: 130vh;
     max-height: 150vh;
     padding-bottom: 3rem;
-    
-    
 `
+
 export const MenuFiltros = styled.div`
     display: flex;
     position: absolute;

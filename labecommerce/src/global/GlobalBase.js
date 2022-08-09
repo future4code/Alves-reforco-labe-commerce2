@@ -1,6 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-
 export const Base = createGlobalStyle`
     body {
         background-color: whitesmoke;

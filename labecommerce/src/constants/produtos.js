@@ -1,10 +1,10 @@
 // Camisetas 
-import camiseta1 from '../assets/camisetas/Atari_e.t..png'
-import camiseta2 from '../assets/camisetas/carona.jpg'
-import camiseta3 from '../assets/camisetas/jáchegou_o_disco_voador.jpg'
-import camiseta4 from '../assets/camisetas/planeta_terra.jpg'
-import camiseta5 from '../assets/camisetas/Poeira_estrelar.png'
-import camiseta6 from '../assets/camisetas/tv.jpg'
+import camiseta1 from '../assets/img/Atari_e.t..png'
+import camiseta2 from '../assets/img/carona.jpg'
+import camiseta3 from '../assets/img/jáchegou_o_disco_voador.jpg'
+import camiseta4 from '../assets/img/planeta_terra.jpg'
+import camiseta5 from '../assets/img/Poeira_estrelar.png'
+import camiseta6 from '../assets/img/tv.jpg'
 
 
 export const produtos = [
