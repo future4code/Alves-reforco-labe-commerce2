@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-  border: 1px solid black;
+  border: 3px solid #FF00FF;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 65vh;
+  margin: 2rem 1rem;
+  background-color: #DCDCDC;
 `
 
 export const FotoProduto = styled.img`
     width: 100%;
+    height: 37vh;
     transform: scale(1.0);
     transition-duration: 0.5s;
     :hover {
@@ -24,10 +27,13 @@ export const Infos = styled.div`
     p {
       margin-bottom: 0;
       margin-top: 2px;
+      text-align: center;
     }
-    h3, h5 {
-      margin: 0 16px;
-      padding: 10px;
+    h1, h2 {
+      margin: 0 auto;
+      padding: 8px;
+      font-size: 20px;
+      font-weight: 800;
     }
 `
 

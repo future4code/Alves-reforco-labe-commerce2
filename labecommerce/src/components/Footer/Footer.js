@@ -35,8 +35,8 @@ return (
 		<Column>
 			<Heading>Entre em contato</Heading>
 			<FooterLink href="https://www.linkedin.com/in/weslianevieira" target="_blank"rel="noreferrer">Wesliane Vieira</FooterLink>
-			<FooterLink href="#">#</FooterLink>
-			<FooterLink href="#">#</FooterLink>
+			<FooterLink href="#"></FooterLink>
+			<FooterLink href="#"></FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>

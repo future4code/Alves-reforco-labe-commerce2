@@ -6,6 +6,3 @@ export const ConjuntoDoCarrinho = styled.div`
     flex-direction: column;
     padding: 10px;
 `
-export const CarrinhoContainer = styled.header`
-    
-`
